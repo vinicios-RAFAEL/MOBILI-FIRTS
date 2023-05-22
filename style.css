@@ -1,0 +1,11 @@
+:root{
+    = =cor=de=fundo:background: #EBECEE;
+    }
+
+    <body{
+        background-color: var(= =cor=de=fumdo);
+    }
+
+    h1{
+        background-color: white;
+    }
