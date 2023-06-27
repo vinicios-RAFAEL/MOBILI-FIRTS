@@ -11,6 +11,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .container{
@@ -20,4 +21,16 @@
 
 .container_imagem{
     padding: 1em;
+}
+
+
+.lista_menu{
+    display:none;
+    position: absolute;
+    top: 100%;
+
+}
+
+.container_botao:checked~.lista_menu{
+    display: block;
 }
